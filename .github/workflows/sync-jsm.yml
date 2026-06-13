@@ -1,0 +1,30 @@
+name: Sync jsm.json from qist/tvbox
+
+on:
+  schedule:
+    # UTC 20:00 = 北京时间凌晨4:00
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout your repo
+        uses: actions/checkout@v4
+
+      - name: Download jsm.json
+        run: |
+          curl -L -o jsm.json https://raw.githubusercontent.com/qist/tvbox/master/jsm.json
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add jsm.json
+          if git diff --cached --quiet; then
+            echo "No changes detected."
+          else
+            git commit -m "Sync jsm.json from qist/tvbox"
+            git push
+          fi
