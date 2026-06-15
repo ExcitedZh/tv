@@ -19,7 +19,7 @@ jobs:
 
       - name: Download jsm.json
         run: |
-          curl -fsSL -o jsm.json https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/jsm.json
+          curl -fsSL -o jsm.json https://raw.githubusercontent.com/qist/tvbox/master/jsm.json
           ls -la jsm.json
 
       - name: Commit and push
