@@ -1,0 +1,32 @@
+name: Auto Update Live Sources
+
+on:
+  schedule:
+    - cron: '0 2 * * *' # 每天凌晨2点自动更新
+  workflow_dispatch:
+
+jobs:
+  update-live:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Fetch and Update Live Stream
+        run: |
+          echo "Fetching latest working IPTV sources..."
+          curl -sL "https://raw.githubusercontent.com/Guovin/iptv-api/master/output/result.txt" -o live_raw.txt || true
+          if [ -s live_raw.txt ]; then
+            # 提取前100个可用频道写入 live.txt
+            grep -E ",http" live_raw.txt | head -n 100 > live.txt
+            echo "Successfully updated live.txt with fresh streams."
+          else
+            echo "Fetch failed, keeping existing live.txt"
+          }
+          rm -f live_raw.txt
+
+      - name: Commit and Push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Auto-update live streams via GitHub Actions"
+          file_pattern: "live.txt"
