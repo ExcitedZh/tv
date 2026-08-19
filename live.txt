@@ -1,0 +1,10 @@
+CCTV-1 综合,https://m3u.ibert.me/hls/cctv_1.m3u8
+CCTV-2 财经,https://m3u.ibert.me/hls/cctv_2.m3u8
+CCTV-3 综艺,https://m3u.ibert.me/hls/cctv_3.m3u8
+CCTV-5 体育,https://m3u.ibert.me/hls/cctv_5.m3u8
+CCTV-6 电影,https://m3u.ibert.me/hls/cctv_6.m3u8
+CCTV-13 新闻,https://m3u.ibert.me/hls/cctv_13.m3u8
+湖南卫视,https://m3u.ibert.me/hls/hnws.m3u8
+浙江卫视,https://m3u.ibert.me/hls/zjws.m3u8
+江苏卫视,https://m3u.ibert.me/hls/jsws.m3u8
+东方卫视,https://m3u.ibert.me/hls/dfws.m3u8
