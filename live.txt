@@ -1,52 +1,25 @@
 #央视频道
-CCTV-1 综合,https://pull.itv.cm/live/cctv1.m3u8
-CCTV-2 财经,https://pull.itv.cm/live/cctv2.m3u8
-CCTV-3 综艺,https://pull.itv.cm/live/cctv3.m3u8
-CCTV-4 中文国际,https://pull.itv.cm/live/cctv4.m3u8
-CCTV-5 体育,https://pull.itv.cm/live/cctv5.m3u8
-CCTV-6 电影,https://pull.itv.cm/live/cctv6.m3u8
-CCTV-7 国防军事,https://pull.itv.cm/live/cctv7.m3u8
-CCTV-8 电视剧,https://pull.itv.cm/live/cctv8.m3u8
-CCTV-9 纪录,https://pull.itv.cm/live/cctv9.m3u8
-CCTV-10 科教,https://pull.itv.cm/live/cctv10.m3u8
-CCTV-11 戏曲,https://pull.itv.cm/live/cctv11.m3u8
-CCTV-12 社会与法,https://pull.itv.cm/live/cctv12.m3u8
-CCTV-13 新闻,https://pull.itv.cm/live/cctv13.m3u8
-CCTV-14 少儿,https://pull.itv.cm/live/cctv14.m3u8
-CCTV-15 音乐,https://pull.itv.cm/live/cctv15.m3u8
-CCTV-16 奥林匹克,https://pull.itv.cm/live/cctv16.m3u8
-CCTV-17 农业农村,https://pull.itv.cm/live/cctv17.m3u8
+CCTV-1 综合,https://live.chinaott.net/live/cctv1/hls/live.m3u8
+CCTV-2 财经,https://live.chinaott.net/live/cctv2/hls/live.m3u8
+CCTV-3 综艺,https://live.chinaott.net/live/cctv3/hls/live.m3u8
+CCTV-4 中文国际,https://live.chinaott.net/live/cctv4/hls/live.m3u8
+CCTV-5 体育,https://live.chinaott.net/live/cctv5/hls/live.m3u8
+CCTV-6 电影,https://live.chinaott.net/live/cctv6/hls/live.m3u8
+CCTV-7 国防军事,https://live.chinaott.net/live/cctv7/hls/live.m3u8
+CCTV-8 电视剧,https://live.chinaott.net/live/cctv8/hls/live.m3u8
+CCTV-13 新闻,https://live.chinaott.net/live/cctv13/hls/live.m3u8
+CCTV-16 奥林匹克,https://live.chinaott.net/live/cctv16/hls/live.m3u8
 #卫视频道
-湖南卫视,https://pull.itv.cm/live/hnws.m3u8
-浙江卫视,https://pull.itv.cm/live/tv_zjws.m3u8
-江苏卫视,https://pull.itv.cm/live/tv_jsws.m3u8
-东方卫视,https://pull.itv.cm/live/tv_dfws.m3u8
-北京卫视,https://pull.itv.cm/live/tv_bjws.m3u8
-安徽卫视,https://pull.itv.cm/live/tv_ahws.m3u8
-山东卫视,https://pull.itv.cm/live/tv_sdws.m3u8
-湖北卫视,https://pull.itv.cm/live/tv_hbws.m3u8
-广东卫视,https://pull.itv.cm/live/tv_gdws.m3u8
-深圳卫视,https://pull.itv.cm/live/tv_szws.m3u8
-四川卫视,https://pull.itv.cm/live/tv_scws.m3u8
-重庆卫视,https://pull.itv.cm/live/tv_cqws.m3u8
-天津卫视,https://pull.itv.cm/live/tv_tjws.m3u8
-河南卫视,https://pull.itv.cm/live/tv_hnws2.m3u8
-黑龙江卫视,https://pull.itv.cm/live/tv_hljws.m3u8
-辽宁卫视,https://pull.itv.cm/live/tv_lnws.m3u8
-河北卫视,https://pull.itv.cm/live/tv_hbws2.m3u8
-贵州卫视,https://pull.itv.cm/live/tv_gzws.m3u8
-江西卫视,https://pull.itv.cm/live/tv_jxws.m3u8
-陕西卫视,https://pull.itv.cm/live/tv_sxws.m3u8
-东南卫视,https://pull.itv.cm/live/tv_dnws.m3u8
-厦门卫视,https://pull.itv.cm/live/tv_xmws.m3u8
-山东教育,https://pull.itv.cm/live/tv_sdjy.m3u8
-海南卫视,https://pull.itv.cm/live/tv_hnws3.m3u8
-新疆卫视,https://pull.itv.cm/live/tv_xjws.m3u8
-西藏卫视,https://pull.itv.cm/live/tv_xzws.m3u8
-青海卫视,https://pull.itv.cm/live/tv_qhws.m3u8
-宁夏卫视,https://pull.itv.cm/live/tv_nxws.m3u8
-甘肃卫视,https://pull.itv.cm/live/tv_gsws.m3u8
-内蒙古卫视,https://pull.itv.cm/live/tv_nmgws.m3u8
-广西卫视,https://pull.itv.cm/live/tv_gxws.m3u8
-香港卫视,https://pull.itv.cm/live/tv_xgws.m3u8
-香港卫视综合,https://pull.itv.cm/live/tv_xgwszh.m3u8
+湖南卫视,https://live.chinaott.net/live/hnws/hls/live.m3u8
+浙江卫视,https://live.chinaott.net/live/zjws/hls/live.m3u8
+江苏卫视,https://live.chinaott.net/live/jsws/hls/live.m3u8
+东方卫视,https://live.chinaott.net/live/dfws/hls/live.m3u8
+北京卫视,https://live.chinaott.net/live/bjws/hls/live.m3u8
+安徽卫视,https://live.chinaott.net/live/ahws/hls/live.m3u8
+山东卫视,https://live.chinaott.net/live/sdws/hls/live.m3u8
+湖北卫视,https://live.chinaott.net/live/hbws/hls/live.m3u8
+广东卫视,https://live.chinaott.net/live/gdws/hls/live.m3u8
+深圳卫视,https://live.chinaott.net/live/szws/hls/live.m3u8
+四川卫视,https://live.chinaott.net/live/scws/hls/live.m3u8
+重庆卫视,https://live.chinaott.net/live/cqws/hls/live.m3u8
+天津卫视,https://live.chinaott.net/live/tjws/hls/live.m3u8
