@@ -1,6 +1,5 @@
 {
   "spider": "./jar/spider.jar;md5;a148eb406043b0f99999014a9c961b32",
-  "wallpaper": "https://wallpaper-1tg.pages.dev/",
   "lives": [
     {
       "name": "稳定直播",
@@ -13,16 +12,47 @@
       "logo": "https://logo.wyfc.qzz.io/{name}.png"
     }
   ],
+  "wallpaper": "https://wallpaper-1tg.pages.dev/",
+  "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
   "sites": [
     {
-      "key": "豆瓣",
-      "name": "豆瓣 • 推荐",
+      "key": "drpy_js_豆瓣",
+      "name": "搜索 • 豆瓣[js]",
       "type": 3,
-      "api": "csp_DouBan",
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/drpy.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "配置中心",
+      "name": "配置 • 中心",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "本地",
+      "name": "本地 • 视频",
+      "type": 3,
+      "api": "csp_LocalFile"
+    },
+    {
+      "key": "预告",
+      "name": "新片 • 预告",
+      "type": 3,
+      "api": "csp_YGP",
       "searchable": 0
     },
     {
-      "key": "厂长",
+      "key": "厂长影视",
       "name": "厂长 • 影视",
       "type": 3,
       "api": "csp_Czsapp",
@@ -39,9 +69,15 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+      "changeable": 1,
       "ext": {
-        "site": ["https://www.wogg.net", "https://wogg.xxooo.cf"]
-      }
+        "site": [
+          "https://www.wogg.net",
+          "https://wogg.xxooo.cf",
+          "https://woggpan.xxooo.cf"
+        ]
+      },
+      "timeout": 60
     },
     {
       "key": "木偶",
@@ -51,9 +87,16 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+      "changeable": 1,
       "ext": {
-        "site": ["https://www.muou.site", "https://www.muou.asia"]
-      }
+        "site": [
+          "https://123.666291.xyz",
+          "https://666.666291.xyz",
+          "https://www.muou.site",
+          "https://www.muou.asia"
+        ]
+      },
+      "timeout": 60
     }
   ],
   "parses": [
