@@ -1,0 +1,78 @@
+{
+  "spider": "./jar/spider.jar;md5;a148eb406043b0f99999014a9c961b32",
+  "wallpaper": "https://wallpaper-1tg.pages.dev/",
+  "lives": [
+    {
+      "name": "稳定直播",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/tvbox.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png"
+    }
+  ],
+  "sites": [
+    {
+      "key": "豆瓣",
+      "name": "豆瓣 • 推荐",
+      "type": 3,
+      "api": "csp_DouBan",
+      "searchable": 0
+    },
+    {
+      "key": "厂长",
+      "name": "厂长 • 影视",
+      "type": 3,
+      "api": "csp_Czsapp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://cz01.vip"
+    },
+    {
+      "key": "玩偶",
+      "name": "玩偶 • 4K",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": ["https://www.wogg.net", "https://wogg.xxooo.cf"]
+      }
+    },
+    {
+      "key": "木偶",
+      "name": "木偶 • 4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": ["https://www.muou.site", "https://www.muou.asia"]
+      }
+    }
+  ],
+  "parses": [
+    {
+      "name": "聚合",
+      "type": 3,
+      "api": "http://127.0.0.1:9978/proxy?do=parse&url="
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "bilibili"
+  ]
+}

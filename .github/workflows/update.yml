@@ -1,0 +1,24 @@
+name: Auto Update TVBox Source
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天北京时间早上8点自动运行
+  workflow_dispatch: # 支持手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Check for updates or ping sources
+        run: |
+          echo "Checking TVBox sources..."
+          date -u > updated_at.txt
+
+      - name: Commit and Push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Auto-update TVBox sources and timestamp"
+          file_pattern: "*.json *.txt updated_at.txt"
