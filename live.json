@@ -1,0 +1,14 @@
+{
+  "lives": [
+    {
+      "name": "稳定直播",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/tvbox.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png"
+    }
+  ]
+}
