@@ -1,25 +1,9 @@
-#央视频道
-CCTV-1 综合,https://live.chinaott.net/live/cctv1/hls/live.m3u8
-CCTV-2 财经,https://live.chinaott.net/live/cctv2/hls/live.m3u8
-CCTV-3 综艺,https://live.chinaott.net/live/cctv3/hls/live.m3u8
-CCTV-4 中文国际,https://live.chinaott.net/live/cctv4/hls/live.m3u8
-CCTV-5 体育,https://live.chinaott.net/live/cctv5/hls/live.m3u8
-CCTV-6 电影,https://live.chinaott.net/live/cctv6/hls/live.m3u8
-CCTV-7 国防军事,https://live.chinaott.net/live/cctv7/hls/live.m3u8
-CCTV-8 电视剧,https://live.chinaott.net/live/cctv8/hls/live.m3u8
-CCTV-13 新闻,https://live.chinaott.net/live/cctv13/hls/live.m3u8
-CCTV-16 奥林匹克,https://live.chinaott.net/live/cctv16/hls/live.m3u8
-#卫视频道
-湖南卫视,https://live.chinaott.net/live/hnws/hls/live.m3u8
-浙江卫视,https://live.chinaott.net/live/zjws/hls/live.m3u8
-江苏卫视,https://live.chinaott.net/live/jsws/hls/live.m3u8
-东方卫视,https://live.chinaott.net/live/dfws/hls/live.m3u8
-北京卫视,https://live.chinaott.net/live/bjws/hls/live.m3u8
-安徽卫视,https://live.chinaott.net/live/ahws/hls/live.m3u8
-山东卫视,https://live.chinaott.net/live/sdws/hls/live.m3u8
-湖北卫视,https://live.chinaott.net/live/hbws/hls/live.m3u8
-广东卫视,https://live.chinaott.net/live/gdws/hls/live.m3u8
-深圳卫视,https://live.chinaott.net/live/szws/hls/live.m3u8
-四川卫视,https://live.chinaott.net/live/scws/hls/live.m3u8
-重庆卫视,https://live.chinaott.net/live/cqws/hls/live.m3u8
-天津卫视,https://live.chinaott.net/live/tjws/hls/live.m3u8
+#EXTM3U
+#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1" group-title="央视频道",CCTV-1 综合
+https://tv.cctvlive.3322.org/cctv/cctv1.m3u8
+#EXTINF:-1 tvg-id="cctv13" tvg-name="CCTV-13" group-title="央视频道",CCTV-13 新闻
+https://tv.cctvlive.3322.org/cctv/cctv13.m3u8
+#EXTINF:-1 tvg-name="湖南卫视" group-title="卫视频道",湖南卫视
+https://tv.cctvlive.3322.org/ws/hunan.m3u8
+#EXTINF:-1 tvg-name="浙江卫视" group-title="卫视频道",浙江卫视
+https://tv.cctvlive.3322.org/ws/zhejiang.m3u8
