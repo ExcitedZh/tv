@@ -1,32 +1,32 @@
-name: Auto Update Live Sources
+name: Auto Aggregate TVBox Live Sources
 
 on:
   schedule:
-    - cron: '0 2 * * *' # 每天凌晨2点自动更新
-  workflow_dispatch:
+    - cron: '0 4 * * *' # 每天北京时间中午12点 (UTC 04:00) 自动聚合更新
+  workflow_dispatch: # 支持手动一键触发
+
+permissions:
+  contents: write
 
 jobs:
-  update-live:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Fetch and Update Live Stream
-        run: |
-          echo "Fetching latest working IPTV sources..."
-          curl -sL "https://raw.githubusercontent.com/Guovin/iptv-api/master/output/result.txt" -o live_raw.txt || true
-          if [ -s live_raw.txt ]; then
-            # 提取前100个可用频道写入 live.txt
-            grep -E ",http" live_raw.txt | head -n 100 > live.txt
-            echo "Successfully updated live.txt with fresh streams."
-          else
-            echo "Fetch failed, keeping existing live.txt"
-          }
-          rm -f live_raw.txt
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
 
-      - name: Commit and Push
+      - name: Run Multi-Source Live Stream Aggregator
+        run: |
+          python3 update_live.py
+          date -u > updated_at.txt
+
+      - name: Commit and Push Updated Live Sources
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Auto-update live streams via GitHub Actions"
-          file_pattern: "live.txt"
+          commit_message: "Auto-update TVBox live streams (multi-source IPv6/IPv4 aggregation)"
+          file_pattern: "live.txt live.m3u updated_at.txt"
