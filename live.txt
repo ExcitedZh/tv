@@ -1,9 +1,37 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1" group-title="央视频道",CCTV-1 综合
-https://tv.cctvlive.3322.org/cctv/cctv1.m3u8
-#EXTINF:-1 tvg-id="cctv13" tvg-name="CCTV-13" group-title="央视频道",CCTV-13 新闻
-https://tv.cctvlive.3322.org/cctv/cctv13.m3u8
+#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="央视频道",CCTV-1 综合
+https://live.cgtn.com/1000hls/cctv1_main.m3u8
+#EXTINF:-1 tvg-id="cctv2" tvg-name="CCTV-2" tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="央视频道",CCTV-2 财经
+https://live.cgtn.com/1000hls/cctv2_main.m3u8
+#EXTINF:-1 tvg-id="cctv3" tvg-name="CCTV-3" tvg-logo="https://live.fanmingming.com/tv/CCTV3.png" group-title="央视频道",CCTV-3 综艺
+https://live.cgtn.com/1000hls/cctv3_main.m3u8
+#EXTINF:-1 tvg-id="cctv4" tvg-name="CCTV-4" tvg-logo="https://live.fanmingming.com/tv/CCTV4.png" group-title="央视频道",CCTV-4 中文国际
+https://live.cgtn.com/1000hls/cctv4_main.m3u8
+#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5" tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" group-title="央视频道",CCTV-5 体育
+https://live.cgtn.com/1000hls/cctv5_main.m3u8
+#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="央视频道",CCTV-6 电影
+https://live.cgtn.com/1000hls/cctv6_main.m3u8
+#EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV-7" tvg-logo="https://live.fanmingming.com/tv/CCTV7.png" group-title="央视频道",CCTV-7 国防军事
+https://live.cgtn.com/1000hls/cctv7_main.m3u8
+#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV-8" tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" group-title="央视频道",CCTV-8 电视剧
+https://live.cgtn.com/1000hls/cctv8_main.m3u8
+#EXTINF:-1 tvg-id="cctv13" tvg-name="CCTV-13" tvg-logo="https://live.fanmingming.com/tv/CCTV13.png" group-title="央视频道",CCTV-13 新闻
+https://live.cgtn.com/1000hls/cctv13_main.m3u8
+#EXTINF:-1 tvg-id="cctv16" tvg-name="CCTV-16" tvg-logo="https://live.fanmingming.com/tv/CCTV16.png" group-title="央视频道",CCTV-16 奥林匹克
+https://live.cgtn.com/1000hls/cctv16_main.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" group-title="卫视频道",湖南卫视
-https://tv.cctvlive.3322.org/ws/hunan.m3u8
+https://live.cgtn.com/1000hls/hunan_main.m3u8
 #EXTINF:-1 tvg-name="浙江卫视" group-title="卫视频道",浙江卫视
-https://tv.cctvlive.3322.org/ws/zhejiang.m3u8
+https://live.cgtn.com/1000hls/zhejiang_main.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" group-title="卫视频道",江苏卫视
+https://live.cgtn.com/1000hls/jiangsu_main.m3u8
+#EXTINF:-1 tvg-name="东方卫视" group-title="卫视频道",东方卫视
+https://live.cgtn.com/1000hls/dongfang_main.m3u8
+#EXTINF:-1 tvg-name="北京卫视" group-title="卫视频道",北京卫视
+https://live.cgtn.com/1000hls/beijing_main.m3u8
+#EXTINF:-1 tvg-name="安徽卫视" group-title="卫视频道",安徽卫视
+https://live.cgtn.com/1000hls/anhui_main.m3u8
+#EXTINF:-1 tvg-name="山东卫视" group-title="卫视频道",山东卫视
+https://live.cgtn.com/1000hls/shandong_main.m3u8
+#EXTINF:-1 tvg-name="湖北卫视" group-title="卫视频道",湖北卫视
+https://live.cgtn.com/1000hls/hubei_main.m3u8
